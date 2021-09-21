@@ -4,6 +4,7 @@
     margin-bottom: 20px;
     border: 0.5px solid #66A3BB;
     outline: none;
+    padding-left: 10px;
 }
 
 .buttons{
@@ -15,9 +16,16 @@
 }
 
 .buttons > button{
-    width: 50px;
+    height: 20px;
     border-radius: 10px;
-    border: 0.5px solid #66A3BB;
+    background-color: #66A3BB;
+
+}
+.buttons > button:focus{
+
+    background-color: #66A3BB;
+    color: white;
+
 }
 .tasks{
     width: 90%;
@@ -37,5 +45,5 @@
     margin-left: 10px;
     width: 50px;
     border-radius: 10px;
-    border: 0.5px solid #66A3BB;
+   
 }

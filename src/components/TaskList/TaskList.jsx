@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Task from "../Task/Task";
 import tasks from '../../tasks'
 import './TaskList.css'
+import Fab from '@mui/material/Fab';
 
 class TaskList extends Component {
 
@@ -48,8 +49,12 @@ class TaskList extends Component {
           <input className="input" type="text" name="desc" ref={this.desc} />
         </form>
         <section className="buttons">
-          <button onClick={this.addTask}>Add</button>
-          <button onClick={this.removeAllTasks}>Reset</button>
+          <Fab aria-label="add" onClick={this.addTask}>
+            Add
+          </Fab>
+          <Fab aria-label="add" onClick={this.removeAllTasks}>
+            Reset
+          </Fab>
         </section>
         <section className="tasks">
           <article>

@@ -21,3 +21,9 @@
     font-weight: lighter;
 }
 
+.crossLine{
+    text-decoration: line-through;
+}
+.DeleteIcon{
+    color: #66A3BB;
+}
