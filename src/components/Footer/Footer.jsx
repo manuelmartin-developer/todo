@@ -1,10 +1,14 @@
 import React, { Component } from "react";
+import {FaGithub} from 'react-icons/fa'
+import './Footer.css'
 
 class Footer extends Component {
   render() {
     return (
-    <footer>
-      Esto es el footer. Andepués meteremos el footer
+    <footer className="Footer">
+      <a href="https://github.com/manuelmartin-developer" target="_blank" rel="noreferrer">
+        <FaGithub />
+      </a>
     </footer>
       )
   }

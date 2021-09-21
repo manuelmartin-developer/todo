@@ -1,0 +1,41 @@
+.input{
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 0.5px solid #66A3BB;
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.buttons > button{
+    width: 50px;
+    border-radius: 10px;
+    border: 0.5px solid #66A3BB;
+}
+.tasks{
+    width: 90%;
+    
+}
+.Task{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.Task > article{
+    width: 80%;
+}
+.Task > article > svg{
+    color: #66A3BB;
+}
+.Task > button {
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 10px;
+    border: 0.5px solid #66A3BB;
+}
